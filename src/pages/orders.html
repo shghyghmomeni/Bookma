@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="../dist/output.css" rel="stylesheet" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>orders</title>
+    <style>
+      @font-face {
+        font-family: bookmafont;
+        src: url(../assest/fonts/IRANSansXRegular.ttf);
+      }
+      * {
+        font-family: bookmafont;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- App bar -->
+    <div class="bg-white w-[100%] z-40 fixed top-0 px-4">
+      <div class="app-bar grid grid-cols-8 h-[10vh]">
+        <div class="col-start-1 col-span-1 flex items-center">
+          <img class="w-12" src="../images/login-page-logo.svg" />
+        </div>
+        <div
+          class="col-start-2 col-span-6 flex items-center text-2xl font-bold"
+        >
+          سفارشات
+        </div>
+        <div class="col-start-8 col-span-1 flex items-center w-9">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="{1.5}"
+            stroke="currentColor"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- main div for show products -->
+    <!-- tabs -->
+    <div class="bg-white w-[100%] z-40 fixed top-[10vh] px-4">
+      <div
+        class="tabs flex flex-row w-[100%] text-center font-semibold text-2xl"
+      >
+        <!-- Active TAb -->
+        <div
+          id="active-tab"
+          class="singel-tab w-[50%] border-black py-4"
+          onclick="showActiveProducts()"
+        >
+          درحال پرداخت
+        </div>
+        <!-- Complete TAb -->
+        <div
+          id="complete-tab"
+          class="singel-tab w-[50%] border-black py-4"
+          onclick="showCompleteProducts()"
+        >
+          تکمیل شده
+        </div>
+      </div>
+    </div>
+
+    <!-- show products -->
+    <div
+      id="show-products-box"
+      class="bg-[#F7F7F7] w-[100%] h-[100vh] pt-[20vh] px-4"
+    ></div>
+
+    <!-- Bottom Navigation -->
+    <div
+      id="bottom-nav"
+      class="bg-white w-[100%] fixed bottom-0 z-50 px-4 py-1"
+    ></div>
+
+    <script src="../scripts/orders.js"></script>
+    <script src="../components/bottomNavigation.js"></script>
+  </body>
+</html>

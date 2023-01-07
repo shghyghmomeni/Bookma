@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="../../dist/output.css" rel="stylesheet" type="text/css" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Homepage</title>
+    <style>
+      @font-face {
+        font-family: bookmafont;
+        src: url(../assest/fonts/IRANSansXRegular.ttf);
+      }
+      * {
+        font-family: bookmafont;
+      }
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+  </head>
+  <body class="no-scrollbar overflow-x-hidden overflow-y-scroll">
+    <!-- App bar -->
+    <div class="bg-white w-[100%] fixed top-0 z-50 px-4">
+      <div class="app-bar grid grid-cols-8 h-[10vh]">
+        <div class="col-start-1 col-span-1 flex items-center">
+          <img id="pic-field" class="w-14 rounded-full" src="" />
+        </div>
+
+        <div
+          class="col-start-2 col-span-5 flex flex-col justify-center items-start px-3"
+        >
+          <h6 class="text-lg font-bold">سلام 👋</h6>
+          <p
+            id="name-field"
+            class="col-start-2 col-span-6 flex items-center text-base font-semibold"
+          ></p>
+        </div>
+
+        <div class="flex flex-row justify-center">
+          <img class="w-7 rounded-full" src="../icons/bell-icon.svg" />
+        </div>
+        <div id="wishlist" class="flex flex-row justify-center">
+          <img class="w-7 rounded-full" src="../icons/whishlist-icon.svg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Search bar -->
+    <div class="h-[8vh] flex justify-center items-center mt-[10vh] px-4">
+      <form class="w-full">
+        <div class="relative">
+          <div
+            class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+          >
+            <img src="../icons/search-icon.svg" />
+          </div>
+          <input
+            type="search"
+            id="search-input"
+            class="block w-full px-4 py-3 pl-10 text-sm text-gray-900 border-gray-300 rounded-lg bg-gray-50 focus:ring-black focus:border-none dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-none"
+            placeholder="Search"
+            required
+          />
+        </div>
+      </form>
+    </div>
+
+    <div class="main px-4">
+      <!-- Categories section -->
+      <div
+        id="categories-section"
+        class="w-[100%] grid grid-cols-4 gap-4 mt-2"
+      ></div>
+
+      <!-- Most Popular section -->
+      <div class="h-[10vh] mt-5">
+        <div class="flex flex-row justify-between items-center">
+          <h3 class="font-bold text-xl">برترین ها</h3>
+          <p class="font-semibold text-sm">مشاهده بیشتر</p>
+        </div>
+        <!-- categories -->
+        <div class="overflow-x-scroll overflow-y-hidden py-4">
+          <div
+            id="items"
+            class="w-[100%] flex flex-row gap-3 relative overflow-x-scroll overflow-y-hidden whitespace-nowrap transition-all py-4 no-scrollbar"
+          ></div>
+        </div>
+
+        <!-- list of products -->
+        <div id="product-list" class="grid grid-cols-2 gap-4 pb-[12vh]"></div>
+      </div>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div
+      id="bottom-nav"
+      class="bg-white w-[100%] fixed bottom-0 z-50 px-4 py-1"
+    ></div>
+
+    <script src="../scripts/homepage.js"></script>
+    <script src="../components/showProducts.js"></script>
+    <script src="../components/bottomNavigation.js"></script>
+  </body>
+</html>

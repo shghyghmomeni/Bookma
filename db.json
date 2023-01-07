@@ -1,0 +1,242 @@
+{
+  "categories": [
+    {
+      "id": "graphic",
+      "brandName": "هنری",
+      "logo": "../icons/categories/graphic.png",
+      "productsOfBrand": []
+    },
+
+    {
+      "id": "science ",
+      "brandName": "علمی",
+      "logo": "../icons/categories/science.png",
+      "productsOfBrand": []
+    },
+    {
+      "id": "kids",
+      "brandName": "کودکان",
+      "logo": "../icons/categories/kids.png",
+      "productsOfBrand": []
+    },
+    {
+      "id": "Genetics ",
+      "brandName": "ژنتیک",
+      "logo": "../icons/categories/bio.png",
+      "productsOfBrand": []
+    },
+    {
+      "id": "biography ",
+      "brandName": "بیوگرافی",
+      "logo": "../icons/categories/bio.png",
+      "productsOfBrand": []
+    },
+    {
+      "id": "historical",
+      "brandName": "تاریخی",
+      "logo": "../icons/categories/history.png",
+      "productsOfBrand": []
+    },
+    {
+      "id": "horror",
+      "brandName": "ترسناک",
+      "logo": "../icons/categories/horror.png",
+      "productsOfBrand": []
+    },
+    {
+      "id": "cook",
+      "brandName": "آشپزی",
+      "logo": "../icons/categories/cook.png",
+      "productsOfBrand": []
+    },
+    {
+      "id": "novel",
+      "brandName": "رمان",
+      "logo": "../icons/categories/lovestory.png",
+      "productsOfBrand": []
+    },
+    {
+      "id": "mystery",
+      "brandName": "رمزآلود",
+      "logo": "../icons/categories/crime.png",
+      "productsOfBrand": []
+    },
+    {
+      "id": "poetry",
+      "brandName": "اشعار",
+      "logo": "../icons/categories/poetry.png",
+      "productsOfBrand": []
+    },
+    {
+      "id": "classic",
+      "brandName": "کلاسیک",
+      "logo": "../icons/categories/classic.png",
+      "productsOfBrand": []
+    },
+    {
+      "id": "zoology",
+      "brandName": "جانورشناسی",
+      "logo": "../icons/categories/zoo.png",
+      "productsOfBrand": []
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "productName": "ژنتیک ۲",
+      "image": "../images/products/B1.jfif",
+      "cost": 600,
+      "description": "در این کتاب به بیش از ۳۰۰ پرسش در مورد جنبه‌های مختلف پاک‌گیاه‌خواری، از اصول علمی برای داشتن تغذیهٔ سالم گیاهی گرفته تا استفاده از حیوانات در حوزه‌های مختلف مانند پوشاک، آزمایشات و مراکز تفریحی پاسخ داده شده است. اگر پاک‌گیاه‌خوار نیستید، این کتاب به شما کمک خواهد کرد از زوایایی تازه به این رویکرد نگاه کنید و با آگاهی تمام برای انتخاب یا عدم انتخاب این شیوهٔ زندگی تصمیم‌گیری کنید ",
+      "Brand": "Genetics",
+      "size": ["جلد اول", "جلد دوم"],
+      "rate": 1231,
+      "stock": 20,
+      "sold": 3120
+    },
+    {
+      "id": 2,
+      "productName": "جغرافیا",
+      "image": "../images/products/E1.jfif",
+      "cost": 358,
+      "description": "در این کتاب به بیش از ۳۰۰ پرسش در مورد جنبه‌های مختلف پاک‌گیاه‌خواری، از اصول علمی برای داشتن تغذیهٔ سالم گیاهی گرفته تا استفاده از حیوانات در حوزه‌های مختلف مانند پوشاک، آزمایشات و مراکز تفریحی پاسخ داده شده است. اگر پاک‌گیاه‌خوار نیستید، این کتاب به شما کمک خواهد کرد از زوایایی تازه به این رویکرد نگاه کنید و با آگاهی تمام برای انتخاب یا عدم انتخاب این شیوهٔ زندگی تصمیم‌گیری کنید ",
+      "Brand": "science",
+      "size": ["جلد اول", "جلد دوم", "جلد سوم"],
+      "rate": 1251,
+      "stock": 20,
+      "sold": 1254
+    },
+    {
+      "id": 3,
+      "productName": "آشنایی گرافیک",
+      "image": "../images/products/G1.jfif",
+      "cost": 520,
+      "description": "در این کتاب به بیش از ۳۰۰ پرسش در مورد جنبه‌های مختلف پاک‌گیاه‌خواری، از اصول علمی برای داشتن تغذیهٔ سالم گیاهی گرفته تا استفاده از حیوانات در حوزه‌های مختلف مانند پوشاک، آزمایشات و مراکز تفریحی پاسخ داده شده است. اگر پاک‌گیاه‌خوار نیستید، این کتاب به شما کمک خواهد کرد از زوایایی تازه به این رویکرد نگاه کنید و با آگاهی تمام برای انتخاب یا عدم انتخاب این شیوهٔ زندگی تصمیم‌گیری کنید ",
+      "Brand": "graphic",
+      "size": ["جلد اول", "جلد دوم"],
+      "rate": 2531,
+      "stock": 20,
+      "sold": 3170
+    },
+    {
+      "id": 4,
+      "productName": "طراحی کوبیسم",
+      "image": "../images/products/G2.jfif",
+      "cost": 640,
+      "description": "در این کتاب به بیش از ۳۰۰ پرسش در مورد جنبه‌های مختلف پاک‌گیاه‌خواری، از اصول علمی برای داشتن تغذیهٔ سالم گیاهی گرفته تا استفاده از حیوانات در حوزه‌های مختلف مانند پوشاک، آزمایشات و مراکز تفریحی پاسخ داده شده است. اگر پاک‌گیاه‌خوار نیستید، این کتاب به شما کمک خواهد کرد از زوایایی تازه به این رویکرد نگاه کنید و با آگاهی تمام برای انتخاب یا عدم انتخاب این شیوهٔ زندگی تصمیم‌گیری کنید ",
+      "Brand": "graphic",
+      "size": ["نسخه ۹", "نسخه ۱۰", "نسخه ۱۱"],
+      "rate": 1236,
+      "stock": 20,
+      "sold": 3820
+    },
+    {
+      "id": 5,
+      "productName": "رنگ شناسی",
+      "image": "../images/products/G3.jfif",
+      "cost": 530,
+      "description": "در این کتاب به بیش از ۳۰۰ پرسش در مورد جنبه‌های مختلف پاک‌گیاه‌خواری، از اصول علمی برای داشتن تغذیهٔ سالم گیاهی گرفته تا استفاده از حیوانات در حوزه‌های مختلف مانند پوشاک، آزمایشات و مراکز تفریحی پاسخ داده شده است. اگر پاک‌گیاه‌خوار نیستید، این کتاب به شما کمک خواهد کرد از زوایایی تازه به این رویکرد نگاه کنید و با آگاهی تمام برای انتخاب یا عدم انتخاب این شیوهٔ زندگی تصمیم‌گیری کنید ",
+      "Brand": "graphic",
+      "size": ["جلد اول", "جلد دوم", "جلد سوم", "جلد چهارم"],
+      "rate": 2001,
+      "stock": 20,
+      "sold": 3122
+    },
+    {
+      "id": 6,
+      "productName": "بیوگرافی mark",
+      "image": "../images/products/P1.jfif",
+      "cost": 570,
+      "description": "نویسنده فارغ التحصیل از دانشگاه پن استیت است و یک مهندس حرفه ای بازنشسته است. او مدیر ساخت و ساز برای یک خرده فروش عمده تا بازنشستگی بود. او و همسر جین هستند پدر و مادر از هارولد و جوآن ، و با هشت نوه پر برکت بوده است. ",
+      "Brand": "biography",
+      "size": ["جلد اول", "جلد دوم"],
+      "rate": 2071,
+      "stock": 25,
+      "sold": 3722
+    },
+    {
+      "id": 7,
+      "productName": "آموزش جاوا",
+      "image": "../images/products/S1.jfif",
+      "cost": 570,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex assumenda laudantium odit, voluptate hic consectetur adipisicing.",
+      "Brand": "historical",
+      "size": ["جلد اول", "جلد دوم"],
+      "rate": 2071,
+      "stock": 25,
+      "sold": 3722
+    },
+    {
+      "id": 8,
+      "productName": "آموزش VmWare",
+      "image": "../images/products/S2.jfif",
+      "cost": 570,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex assumenda laudantium odit, voluptate hic consectetur adipisicing.",
+      "Brand": "historical",
+      "size": ["جلد اول", "جلد دوم"],
+      "rate": 2071,
+      "stock": 25,
+      "sold": 3722
+    },
+    {
+      "id": 9,
+      "productName": "جانورشناسی ۸",
+      "image": "../images/products/Z1.jfif",
+      "cost": 570,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex assumenda laudantium odit, voluptate hic consectetur adipisicing.",
+      "Brand": "zoology",
+      "size": ["جلد اول", "جلد دوم", "جلد سوم"],
+      "rate": 2071,
+      "stock": 25,
+      "sold": 3722
+    },
+    {
+      "id": 10,
+      "productName": "جانورشناسی ۵",
+      "image": "../images/products/Z2.jfif",
+      "cost": 570,
+      "description": "در این کتاب به بیش از ۳۰۰ پرسش در مورد جنبه‌های مختلف پاک‌گیاه‌خواری، از اصول علمی برای داشتن تغذیهٔ سالم گیاهی گرفته تا استفاده از حیوانات در حوزه‌های مختلف مانند پوشاک، آزمایشات و مراکز تفریحی پاسخ داده شده است. اگر پاک‌گیاه‌خوار نیستید، این کتاب به شما کمک خواهد کرد از زوایایی تازه به این رویکرد نگاه کنید و با آگاهی تمام برای انتخاب یا عدم انتخاب این شیوهٔ زندگی تصمیم‌گیری کنید ",
+      "Brand": "zoology",
+      "size": ["جلد اول", "جلد دوم"],
+      "rate": 2071,
+      "stock": 25,
+      "sold": 3722
+    },
+    {
+      "id": 11,
+      "productName": "جانورشناسی ۳",
+      "image": "../images/products/Z3.jfif",
+      "cost": 570,
+      "description": "در این کتاب به بیش از ۳۰۰ پرسش در مورد جنبه‌های مختلف پاک‌گیاه‌خواری، از اصول علمی برای داشتن تغذیهٔ سالم گیاهی گرفته تا استفاده از حیوانات در حوزه‌های مختلف مانند پوشاک، آزمایشات و مراکز تفریحی پاسخ داده شده است. اگر پاک‌گیاه‌خوار نیستید، این کتاب به شما کمک خواهد کرد از زوایایی تازه به این رویکرد نگاه کنید و با آگاهی تمام برای انتخاب یا عدم انتخاب این شیوهٔ زندگی تصمیم‌گیری کنید ",
+      "Brand": "zoology",
+      "size": ["جلد اول", "جلد دوم"],
+      "rate": 2071,
+      "stock": 25,
+      "sold": 3722
+    },
+    {
+      "id": 12,
+      "productName": "جانورشناسی ۴",
+      "image": "../images/products/Z4.jfif",
+      "cost": 570,
+      "description": "در این کتاب به بیش از ۳۰۰ پرسش در مورد جنبه‌های مختلف پاک‌گیاه‌خواری، از اصول علمی برای داشتن تغذیهٔ سالم گیاهی گرفته تا استفاده از حیوانات در حوزه‌های مختلف مانند پوشاک، آزمایشات و مراکز تفریحی پاسخ داده شده است. اگر پاک‌گیاه‌خوار نیستید، این کتاب به شما کمک خواهد کرد از زوایایی تازه به این رویکرد نگاه کنید و با آگاهی تمام برای انتخاب یا عدم انتخاب این شیوهٔ زندگی تصمیم‌گیری کنید ",
+      "Brand": "zoology",
+      "size": ["جلد اول", "جلد دوم"],
+      "rate": 2071,
+      "stock": 25,
+      "sold": 3722
+    },
+    {
+      "id": 13,
+      "productName": "جانورشناسی ۱",
+      "image": "../images/products/Z5.jfif",
+      "cost": 570,
+      "description": "در این کتاب به بیش از ۳۰۰ پرسش در مورد جنبه‌های مختلف پاک‌گیاه‌خواری، از اصول علمی برای داشتن تغذیهٔ سالم گیاهی گرفته تا استفاده از حیوانات در حوزه‌های مختلف مانند پوشاک، آزمایشات و مراکز تفریحی پاسخ داده شده است. اگر پاک‌گیاه‌خوار نیستید، این کتاب به شما کمک خواهد کرد از زوایایی تازه به این رویکرد نگاه کنید و با آگاهی تمام برای انتخاب یا عدم انتخاب این شیوهٔ زندگی تصمیم‌گیری کنید ",
+      "Brand": "zoology",
+      "size": ["جلد اول", "جلد دوم"],
+      "rate": 2071,
+      "stock": 25,
+      "sold": 3722
+    }
+  ]
+}
